@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css" type="text/css">
+<style>
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Courier;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: lightblue;
+  color: black;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+
+/* Style the top navigation bar */
+.navbar {
+  display: left;
+  background-color: steelblue;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  display: horizontal;
+  color: white;
+  padding: 14px 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover not{(.active)
+  background-color: turquoise;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: light blue;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-image:url("Office.jpg");
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color:none;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<body background="Office.jpg">
+
+<!-- Note -->
+<div style="background:yellow;padding:5px">
+  <h4 style="text-align:center">What you see is What you get!!</h4>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>Bontle's Website</h1>
+  <p>With a <b>flexible</b> layout.</p>
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar"> <a href="#Home">HOME</a>
+  <a href="#Project">PROJECT</a>
+  <a href="#About">ABOUT</a>
+  <a href="#Contac">CONTACT</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+  <section id="About Me">
+    <h2>About Me</h2>
+    <img src="18.jpg" width="250" height="300">
+    </div>
+    <p>I am Mabotle Pienaar located in Nyanga KTC.I did my matric in 2016 then I went to West Coast College where I studied Management Assistant in N4-N6 that includes,Communication Management,Office Practice,Information Processing and Computer Practice.I joined this programme called Codetelligent Bootcamp as a Frontnd Web Developer, because of the love I have for and I want to learn more about it.Web Development its something special and interesting, sometimes you will be asking yourself how did this website come out to this presentable feature, that's where you learn the inside of developing.
+    </p>
+    <h3 style="font-family:courier">Skills</h3>
+    <article>
+    <ul>
+    <li>Communication</li>
+    <li>Computer skills</li>
+    <li>Problem Solving</li>
+    <li>Willingness to learn</li>
+    <li>Management Skill-Task delegation
+    -Team Communication 
+    -Team leadership</li>
+    </ul>
+    <h3 style="font-family:courier">Hobbies and Interests</h3>
+    <ul>
+    <li>Travelling,socialising with friends and family,reading and learning new things,cooking on a weekly basis, mentoring and being a team player,Computing(creating and designing websites and software.)
+    </li>
+    </ul>
+    </section>
+    </article>
+    
+    <a href="#Top"> Back to Top</a>
+    
+  <div class="main">
+  <section id="Projects">
+    <h2>PROJECTS</h2>
+    <p><h3 style="font-family:courier">Project 1</h3></p>
+
+    <ul>
+    <li>
+    <p>
+    It is a long established fact that reader will be distracted by the readable content of a page when looking at its layout.
+    </p>
+    </li>
+    </ul>
+    <footer>
+    <a href="Lorem Ipsum is that it has a more">See more</a>
+    </footer>
+    
+    <header>
+    <h3 style="font-family:courier">Project 2</h3>
+    </header>
+    <ul>
+    <li>
+    <p>
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Loren Ipsum is that it has a more-or-less normal distribution
+    </p>
+    </li>
+    </ul>
+    <footer>
+    <p>
+    <a href="Lorem Ipsum is that it has a more">See more</a>
+    </p>
+    </footer>
+    </article>
+    </li>
+    <header>
+    <h3 style="font-family:courier">Project 3</h3>
+    </header>
+    <ul>
+    <li>
+    <p>
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
+    </p>
+    </li>
+    </ul>
+    <footer>
+    <p>
+    <a href="chew-footer-shake-treat-bag" >See more</a>
+    </p>
+    </footer>
+    </article>
+    </li>
+    </ul>
+    </section>
+    </main>
+    <footer>
+    <head>
+    <section id="Contact">
+    <title>Contact</title>
+    <h1 style="font-family:courier">CONTACT</h1>
+    <body>	
+    <ul>
+    <li>
+    <p>
+    Email:<a href="mailto:mabotlebuhle100@gmail.com" >mabotlebuhle100@gmail.com</a>
+    </p>
+    </li>
+    <li>
+    <p>
+    Phone:(078) 958 0679
+    </p>
+    </li>
+    </ul>
+    <ul>
+    <li>
+    <p>
+    
+   WhatsApp:<a href="https://wa.link/6zbndx">WhatsApp</a>
+    <br>
+    
+    
+    
+    </p>
+</div>
+</li>
+</ul>
+</body>
+</section>
+</head>
+<!-- Footer -->
+<div class="footer">
+<p>&copy;2020-Mabotle-All rights reserved</p>
+</footer>
+</div>
+
+</body>
+</html>
